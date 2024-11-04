@@ -1,0 +1,26 @@
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.digital-clock {
+  font-size: 4rem;
+  color: #00ffcc;
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent black for contrast */
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for glowing effect */
+  border: 2px solid #00ffcc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.digital-clock:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
